@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - La Dulzura</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1 class="titulo">
+    <span>La Dulzura</span>
+  </h1>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="index.html"><img src="iconos/icono-home.svg" alt="icono de una casa">
+              <span class="nombre-opcion">Inicio</span></a>
+        </li>
+
+        <li>
+          <a href="productos.html"><img src="iconos/icono-catalogo.svg" alt="icono de catalogo">
+              <span class="nombre-opcion">Productos</span></a>
+        </li>
+
+        <li>
+          <a href="eventos.html"><img src="iconos/icono-people.svg" alt="icono de eventos">
+              <span class="nombre-opcion">Eventos</span></a>
+        </li>
+        
+        <li>
+          <a href="sucursales.html"><img src="iconos/geo-alt-fill.svg" alt="icono de sucursales">
+              <span class="nombre-opcion">Sucursales</span></a>
+        </li>  
+
+        <li> 
+          <a href="contacto.html"><img src="iconos/icono-contact.svg" alt="icono de contacto">
+              <span class="nombre-opcion">Contacto</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+</header>
+
+
+<hr>
+
+<main>
+
+   <section class="contacto">
+            <h2>Contáctanos</h2>
+            <p>Déjanos un mensaje y te responderemos lo antes posible.</p>
+
+            <form action="#" method="post" class="form-contacto">
+
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono (opcional)</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="999 999 999">
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+  </section>
+
+</main>
+<aside>
+        <a class="btn-whatsapp"
+            href="https://wa.me/51927657974?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Tortas" target="_blank">
+            <img src="iconos/icono-whatsapp.svg" alt="whatsapp" class="icono-wsp">
+            <span>Contáctanos por WhatsApp</span>
+        </a>
+
+</aside>
+<hr>
+
+<footer>
+  <p>© 2025 - <strong>La Dulzura</strong> es un exitoso modelo de desarrollo, que produce, transmite sabor y alegria para los Peruanos, convirtiéndola en una de las marcas mas queridas y prestigiosa del pais.</p>
+</footer>
+</body>
+</html>
